@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/completeForm.feature",
-        glue = "stepsDefinitions",
+        glue = "stepsdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class CompleteFormRunner {
