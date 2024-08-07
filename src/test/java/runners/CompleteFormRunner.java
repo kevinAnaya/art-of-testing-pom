@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/Features/RegisterAndCategory.feature",
+        features = "src/test/resources/features/completeForm.feature",
         glue = "stepsDefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
